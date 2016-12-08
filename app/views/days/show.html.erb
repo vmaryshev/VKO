@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @day.date %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @day.description %>
+</p>
+
+<p>
+  <strong>Distance:</strong>
+  <%= @day.distance %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_day_path(@day) %> |
+<%= link_to 'Back', days_path %>
